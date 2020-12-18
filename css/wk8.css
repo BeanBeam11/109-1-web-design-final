@@ -1,0 +1,153 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.nav{
+  width: 100vw;
+  height: 100px;
+  position: fixed;
+  z-index: 1;
+  text-align: right;
+  margin-top: 10px;
+}
+.btn1{
+  background-color: #c98853;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #612f06;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.btn1:hover{
+  color: #fff;
+}
+.btn2{
+  position: fixed;
+  right: 0;
+  bottom: 10px;
+  background-color: #c7ae89;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #612f06;
+  border-radius: 10px 10px 10px 10px;
+  text-decoration: none;
+}
+.btn2:hover{
+  color: #fff;
+}
+.bg{
+  background-image: url(https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.box_word_cover{
+  position: absolute;
+  width: 60vw;
+  height: 12vh;
+  margin-top: 60vh;
+  margin-left: 35vw;
+  outline: 2px solid #fff;
+}
+.word_cover{
+  position: absolute;
+  font-size: 48px;
+  font-size: bold;
+  color: #fff;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+.header_1{
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+.header{
+  font-size: 24px;
+  font-weight: bold; 
+  color: #fff;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+.p1{
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+.p2{
+  font-size: 24px;
+  color: #fff;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+.area{
+  width: 100%;
+  height: 100vh;
+  padding: 30px;
+  box-sizing: border-box;
+/*   background-attachment: fixed; */
+}
+.area1{
+  background-image: url(https://www.kiu.ac.ug/assets/images/news/covid-19-updates-uganda-registers-18-more-covid-19-cases.jpg);
+  background-size: cover;
+  color: #fff;
+  min-height: 1200px;
+}
+.area2{
+  background-image: url(https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 50px 10vw;
+}
+.area3{
+  background-image: url(https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+  background-size: cover;
+}
+.area4{
+  background-image: url(https://images.unsplash.com/photo-1504193902866-27cfb5aafcc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+  background-size: cover;
+}
+.box_4{
+  position: absolute;
+  width: 80vw;
+  right: 0;
+  left: 0;
+  margin: auto;
+  margin-top: 5vh;
+}
+.area5{
+  background-image: url(https://images.unsplash.com/photo-1530521954074-e64f6810b32d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+  background-size: cover;
+  background-position: 0 ;
+}
+.area6{
+  background-image: url(https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1498&q=80);
+  background-size: cover;
+  background-position: 0 ;
+}
+.box_6{
+  position: absolute;
+  width: 80vw;
+  right: 0;
+  left: 0;
+  margin: auto;
+  margin-top: 50vh;
+}
+.area7{
+  background-image: url(https://images.unsplash.com/photo-1604593269867-80ecd26dbbd5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+  background-size: cover;
+  font-size: 24px;
+  color: #000;
+}
+.a_style{
+  color: #fff;
+  right: 0;
+  left: 0;
+  margin: auto;
+}

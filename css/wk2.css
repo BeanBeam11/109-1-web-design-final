@@ -1,0 +1,215 @@
+.picture{
+/*   outline: 1px solid #000; */
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+}
+.cup{
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  background-color: #cfa278;
+  border-radius: 0 0 30px 30px;
+  margin-left: 30px;
+}
+.handle{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #cfa278;
+  border-radius: 0 30px 30px 0;
+  margin-top: 15px;
+  margin-left: 180px;
+}
+.handle2{
+  width: 80px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 0 20px 20px 0;
+  margin-top: 15px;
+  position: absolute;
+}
+.plate{
+  position: absolute;
+  width: 250px;
+  height: 10px;
+  background-color: #cfa278;
+  margin-top: 150px;
+  border-radius: 0 0 30px 30px;
+}
+.plate2{
+  position: absolute;
+  width: 200px;
+  height: 10px;
+  background-color: #cfa278;
+  margin-top: 160px;
+  margin-left: 30px;
+  border-radius: 0 0 30px 30px;
+}
+.coffee1{
+  position: absolute;
+  background-color: #6e4a30;
+  width: 180px;
+  height: 30px;
+  border-radius: 0 0 30px 30px;
+  margin-top: 110px;
+  margin-left: 10px;
+  color: #fff;
+  text-align: center;
+}
+.name{
+  position: absolute;
+  margin-top: 175px;
+  width: 260px;
+  text-align: center;
+}
+.cream{
+  position: absolute;
+  background-color: #fff;
+  width: 180px;
+  height: 30px;
+  margin-top: 80px;
+  margin-left: 10px;
+  color: #6e4a30;
+  text-align: center;
+}
+.cream1{
+  position: absolute;
+  background-color: #fff;
+  width: 180px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 10px;
+  color: #6e4a30;
+  text-align: center;
+}
+.cream2{
+  position: absolute;
+  background-color: #fff;
+  width: 180px;
+  height: 65px;
+  margin-top: 15px;
+  margin-left: 10px;
+  color: #6e4a30;
+  text-align: center;
+}
+.water{
+  position: absolute;
+  background-color: #accbfc;
+  width: 180px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #fff;
+  text-align: center;
+}
+.milk{
+  position: absolute;
+  background-color: #fff9c4;
+  width: 180px;
+  height: 50px;
+  margin-top: 60px;
+  margin-left: 10px;
+  color: #6e4a30;
+  text-align: center;
+}
+.milk1{
+  position: absolute;
+  background-color: #fff9c4;
+  width: 180px;
+  height: 30px;
+  margin-top: 80px;
+  margin-left: 10px;
+  color: #6e4a30;
+  text-align: center;
+}
+.milk2{
+  position: absolute;
+  background-color: #fff9c4;
+  width: 180px;
+  height: 35px;
+  margin-top: 45px;
+  margin-left: 10px;
+  color: #6e4a30;
+  text-align: center;
+}
+.butter{
+  position: absolute;
+  background-color: #fceecc;
+  width: 180px;
+  height: 30px;
+  margin-top: 80px;
+  margin-left: 10px;
+  color: #6e4a30;
+  text-align: center;
+}
+.butter1{
+  position: absolute;
+  background-color: #fceecc;
+  width: 180px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 10px;
+  color: #6e4a30;
+  text-align: center;
+}
+.butter2{
+  position: absolute;
+  background-color: #fceecc;
+  width: 180px;
+  height: 30px;
+  margin-top: 50px;
+  margin-left: 10px;
+  color: #6e4a30;
+  text-align: center;
+}
+.halfmilk{
+  position: absolute;
+  background-color: #fceecc;
+  width: 180px;
+  height: 50px;
+  margin-top: 60px;
+  margin-left: 10px;
+  color: #6e4a30;
+  text-align: center;
+}
+.chocolate{
+  position: absolute;
+  background-color: #36200c;
+  width: 180px;
+  height: 30px;
+  margin-top: 80px;
+  margin-left: 10px;
+  color: #fff;
+  text-align: center;
+}
+.caramel{
+  position: absolute;
+  background-color: #ebb86c;
+  width: 180px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 10px;
+  color: #fff;
+  text-align: center;
+}
+.creamsugar{
+  position: absolute;
+  background-color: #ffbff6;
+  width: 180px;
+  height: 65px;
+  margin-top: 45px;
+  margin-left: 10px;
+  color: #fff;
+  text-align: center;
+}
+.whiskey{
+  position: absolute;
+  background-color: #bf9dba;
+  width: 180px;
+  height: 30px;
+  margin-top: 80px;
+  margin-left: 10px;
+  color: #fff;
+  text-align: center;
+}

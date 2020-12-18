@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+body{
+  padding: 0;
+  margin: 0;
+}
+section article{
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 100px;
+}
+section article h1{
+  font-weight: 700;
+  font-size: 30px;
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #555;
+  width: 40px;
+  height: 100vh;
+  overflow: hidden;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li{}
+nav ul li a{
+  text-decoration: none;
+  color: #eee;
+  font-size: 40px;
+  white-space: nowrap;
+  display: block;
+}
+nav ul li a:hover{
+  background-color: #302b2b;
+}
+nav:hover{
+  width: 220px;
+}
+.fa-user{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.fa-envelope{
+  font-size: 35px;
+}

@@ -1,0 +1,33 @@
+.nav{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.nav ul{
+/*   outline: 3px solid #473329; */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.nav ul li{
+/*   outline: 1px solid #f0d6c9; */
+  width: 100px;
+  width: calc((100% - 50px) / 5);
+  display: inline-block;
+}
+.nav ul li a{
+  text-decoration: none;
+  background-color: #cfa997;
+  color: #8a563d;
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+.nav ul li a:hover{
+  background-color: #9e745f;
+}
+.area{
+  height: 300vh;
+}

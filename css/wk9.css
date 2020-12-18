@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:700');
+.button{
+    width: 150px;
+    height: 50px;
+    background-color: #e0c4a2;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Noto Sans TC', sans-serif;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: 0px solid #eddac2;
+    transform: translate(-50%, -50%);
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.button:hover{
+    font-size: 40px;
+    width: 180px;
+    height: 60px;
+    background-color: #b0997d;
+    line-height: 60px;
+    border: 5px solid#eddac2;
+}
+.box{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    /* outline: 1px solid red; */
+    background-color: black;
+    overflow: hidden;
+}
+.box img{
+    position: absolute;
+    transition: all 0.5s;
+    opacity: 0.5;
+    height: 100%;
+    transform: translate(-100px,0);
+}
+.box .title{
+    position: absolute;
+    transition: all 0.5s;
+    transition-delay: 0.3s;
+    right: 0;
+    bottom: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 30px;
+}
+.box .price{
+    position: absolute;
+    transition: all 0.5s;
+    transition-delay: 0.5s;
+    right: 0;
+    bottom: 0;
+    margin-right: 10px;
+    margin-bottom: -100px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 50px;
+}
+.box:hover img{
+    transform: translate(0,0);
+    opacity: 1;
+}
+.box:hover .title{
+    margin-right: 10px;
+    margin-bottom: 80px;
+}
+.box:hover .price{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

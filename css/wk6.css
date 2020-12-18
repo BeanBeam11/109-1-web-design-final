@@ -1,0 +1,43 @@
+.btn1{
+  background-color: #c98853;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #612f06;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.btn1:hover{
+  color: #fff;
+}
+.btn2{
+  position: fixed;
+  right: 0;
+  bottom: 10px;
+  background-color: #c98853;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #612f06;
+  border-radius: 10px 0 0 10px;
+  text-decoration: none;
+}
+.btn2:hover{
+  color: #fff;
+}
+.area{
+/*   height: 100vh; */
+  min-height: 100vh;
+}
+.area1{
+  background-color: #c4a286;
+  margin-top: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.area2{
+  background-color: #dbcdc1;
+}
+.lazyImg{
+  height: 100vh;
+}
