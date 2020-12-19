@@ -108,10 +108,11 @@ a{
     /* outline: 1px solid red; */
 }
 .story img{
-    width: 77px;
-    height: 77px;
+    width: 87px;
+    height: 87px;
 }
 .story p{
+    padding-top: 15px;
     margin: 0 0;
 }
 .type{
