@@ -151,7 +151,7 @@ a{
     position: fixed;
     top: 0;
     left: 0;
-    display: none;
+    /* display: none; */
 }
 .big .img{
     width: 95%;
@@ -163,6 +163,7 @@ a{
     top: 0;
     bottom: 0;
     margin: auto;
+    /* display: none; */
 }
 .big .img img{
     height: 100%;
@@ -173,3 +174,28 @@ a{
     bottom: 0;
     margin: auto;
 }
+/*
+.big .big_post{
+    display: flex;
+    outline: 1px solid red;
+}
+.big .big_post .post_img{
+    width: 600px;
+    height: 600px;
+    outline: 1px solid red;
+}
+.big .big_post .post_word .acc{
+    width: 335px;
+    height: 72px;
+    padding: 16px;
+    box-sizing: border-box;
+    outline: 1px solid red;
+}
+.big .big_post .post_word .contain{
+    width: 335px;
+    height: 528px;
+    padding: 16px 12px;
+    box-sizing: border-box;
+    outline: 1px solid red;
+}
+*/
