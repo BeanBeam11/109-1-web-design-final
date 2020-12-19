@@ -1,5 +1,6 @@
 html{
     font-size: 18px;
+    background-color: #FAFAFA;
 }
 body{
     text-align: center;
@@ -18,7 +19,7 @@ a{
 }
 .main_area{
     width: 975px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin-bottom: 30px;
     padding: 30px 20px;
     box-sizing: border-box;
@@ -27,13 +28,13 @@ a{
 .header{
     width: 100%;
     height: 54px;
-    outline: 1px solid red;
+    outline: 1px solid #dbdbdb;
 }
 /* Profile */
 .profile{
     width: 935px;
     height: 362px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin-bottom: 44px;
     display: flex;
 }
@@ -41,7 +42,7 @@ a{
     width: 291.67px;
     height: 362px;
     margin-right: 30px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 .my_photo{
     width: 150px;
@@ -50,23 +51,29 @@ a{
 .profile_word{
     width: 631.33px;
     height: 362px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     text-align: left;
     font-size: 16px;
 }
 .profile_word p{
     margin: 5px 0;
 }
+.line{
+    text-decoration: line-through;
+}
+.tag{
+    color: #00376b;
+}
 .name{
     height: 40px;
     margin-bottom: 20px;
     font-size: 28px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 .follow{
     height: 18px;
     margin-bottom: 20px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     display: flex;
 }
 .follow p{
@@ -75,7 +82,7 @@ a{
 }
 .describe{
     height: 264px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 /* Container */
 .container{
@@ -89,7 +96,7 @@ a{
     width: 935px;
     height: 130px;
     display: flex;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 .story{
     width: 115px;
@@ -98,7 +105,7 @@ a{
     box-sizing: border-box;
     margin: 0 10px;
     font-size: 14px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 .story img{
     width: 77px;
@@ -110,23 +117,58 @@ a{
 .type{
     width: 935px;
     height: 53px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 .post{
     width: 293px;
     height: 293px;
     /* display: inline-block; */
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin-bottom: 28px;
     background-color: #ffebb3;
+}
+.container .post img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 /* Footer */
 .footer{
     width: 100%;
     height: 78px;
     margin-bottom: 52px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 .footer p{
     font-size: 12px;
+}
+/* Java */
+.big{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.big .img{
+    width: 95%;
+    height: 90%;
+    /* outline: 2px solid red; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.big .img img{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
