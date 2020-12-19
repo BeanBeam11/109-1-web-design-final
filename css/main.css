@@ -1,7 +1,59 @@
-body{
+html{
     font-size: 18px;
+}
+body{
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 a{
     text-decoration: none;
     color: brown;
+}
+/* Control class */
+.set_center{
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.main_area{
+    width: 975px;
+    outline: 1px solid red;
+    margin-bottom: 30px;
+    padding: 30px 20px;
+}
+/* Header */
+.header{
+    width: 100%;
+    height: 54px;
+    outline: 1px solid red;
+}
+/* Profile */
+.profile{
+    width: 935px;
+    height: 362px;
+    outline: 1px solid red;
+    margin-bottom: 44px;
+}
+/* Container */
+.container{
+    width: 935px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.post{
+    width: 293px;
+    height: 293px;
+    /* display: inline-block; */
+    outline: 1px solid red;
+    margin-bottom: 28px;
+}
+/* Footer */
+.footer{
+    width: 100%;
+    height: 78px;
+    margin-bottom: 52px;
+    outline: 1px solid red;
 }
