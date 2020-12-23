@@ -33,15 +33,46 @@ a{
 .icon_area{
     width: 935px;
     height: 54px;
-    text-align-last: right;
-}
-.header .icon_area img{
-    position: relative;
-    width: 35px;
-    height: 35px;
-    top: 10px;
+    /* outline: 1px solid red; */
     right: 0;
-    display: none;
+    left: 0;
+    margin: auto;
+    /* text-align-last: right; */
+}
+.icon_home{
+    /* position: relative; */
+    position: absolute;
+    width: 30px;
+    height: 28px;
+    top: 12px;
+    right: 340px;
+    /* display: none; */
+}
+.icon_heart{
+    /* position: relative; */
+    position: absolute;
+    width: 29px;
+    height: 28px;
+    top: 13px;
+    right: 300px;
+    /* display: none; */
+}
+.icon_user{
+    /* position: relative; */
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 13px;
+    right: 260px;
+    /* display: none; */
+}
+.logo{
+    /* position: relative; */
+    position: absolute;
+    width: 105px;
+    height: 32px;
+    top: 12px;
+    left: 250px;
 }
 /* Profile */
 .profile{
@@ -126,6 +157,7 @@ a{
 .story img{
     width: 87px;
     height: 87px;
+    cursor: pointer;
 }
 .story p{
     padding-top: 15px;
@@ -181,9 +213,16 @@ li{
     margin-bottom: 52px;
     /* outline: 1px solid red; */
 }
+.footer_1{
+    outline: 1px solid #dbdbdb;
+}
 .footer_word{
     font-size: 12px;
-    margin-top: 40px;
+    margin-top: 20px;
+}
+.footer p{
+    position: relative;
+    top: 30px;
 }
 /* Java */
 .big{
