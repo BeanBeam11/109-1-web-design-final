@@ -42,10 +42,10 @@ a{
 .icon_home{
     /* position: relative; */
     position: absolute;
-    width: 30px;
-    height: 28px;
-    top: 12px;
-    right: 340px;
+    width: 28px;
+    height: 26px;
+    top: 13px;
+    right: 350px;
     /* display: none; */
 }
 .icon_heart{
@@ -54,15 +54,15 @@ a{
     width: 29px;
     height: 28px;
     top: 13px;
-    right: 300px;
+    right: 305px;
     /* display: none; */
 }
 .icon_user{
     /* position: relative; */
     position: absolute;
-    width: 28px;
-    height: 28px;
-    top: 13px;
+    width: 30px;
+    height: 30px;
+    top: 12px;
     right: 260px;
     /* display: none; */
 }
@@ -183,6 +183,7 @@ a{
 }
 .post img:hover{
     opacity: 0.6;
+    cursor: pointer;
 }
 /* list */
 li{
