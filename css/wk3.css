@@ -8,8 +8,10 @@
   outline: 1px solid #000;
   width: 450px;
   height: 695px;
-  left: 200px;
   overflow: hidden;
+  right: 0;
+  left: 0;
+  margin: auto;
 }
 .img{
   position: absolute;

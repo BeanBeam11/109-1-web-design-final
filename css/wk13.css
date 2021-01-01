@@ -8,6 +8,7 @@
 .btn {
     background-color: pink;
     padding: 10px;
+    cursor: pointer;
 }
 .ex{
     position: relative;

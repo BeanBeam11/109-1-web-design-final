@@ -6,7 +6,7 @@ body{
   width: 100vw;
   height: 100px;
   position: fixed;
-  z-index: 1;
+  /* z-index: 1; */
   text-align: right;
   margin-top: 10px;
 }
@@ -70,7 +70,7 @@ body{
   color: #fff;
   text-shadow: 0.1em 0.1em 0.2em black;
 }
-.header{
+.header_2{
   font-size: 24px;
   font-weight: bold; 
   color: #fff;

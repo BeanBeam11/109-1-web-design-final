@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:700');
+.header{
+    /* margin-bottom: 5px; */
+}
 .button{
     width: 150px;
     height: 50px;
@@ -25,12 +28,18 @@
     border: 5px solid#eddac2;
 }
 .box{
-    position: relative;
+    /* position: relative; */
+    position: absolute;
     width: 500px;
     height: 400px;
     /* outline: 1px solid red; */
     background-color: black;
     overflow: hidden;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
 }
 .box img{
     position: absolute;

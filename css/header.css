@@ -98,6 +98,7 @@ a{
 /* nav */
 
 .nav_area{
+    z-index: 1;
     position: absolute;
     top: 54px;
     right: 10px;

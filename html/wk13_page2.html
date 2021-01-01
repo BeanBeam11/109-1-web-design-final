@@ -6,14 +6,92 @@
     <title>wk13-圖庫</title>
     <link rel="stylesheet" href="../css/wk13_page2.css">
     <link rel="stylesheet" href="../css/header.css">
+    <script src="../js/jQuery.js"></script>
 </head>
 <body>
     <div class="header">
         <div class="icon_area">
             <a href="../index.html"><img class="logo" src="../img/img_logo.png" alt=""></a>
-            <a href="../index.html"><img class="icon_home"src="../img/icon_home_2.png" alt=""></a>
-            <a href="../index.html"><img class="icon_heart"src="../img/icon_heart_1.png" alt=""></a>
-            <a href="../index.html"><img class="icon_user"src="../img/icon_user_2.png" alt=""></a>
+            <a href="../index.html"><img class="icon_home" src="../img/icon_home_2.png" alt=""></a>
+            <div class="icon_heart">
+                <img class="icon_heart_1" src="../img/icon_heart_1.png" alt="">
+                <img class="icon_heart_2" src="../img/icon_heart_2.png" alt="">
+            </div>
+            <div class="nav_area">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="../index.html"><img class="icon_user_1" src="../img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="../html/wk1.html">課程介紹</a>
+                        <a href="../html/wk1.html"><img class="nav_post" src="../img/post1.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html"><img class="icon_user_1" src="../img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="../html/wk2.html">由畫畫來了解HTML/CSS</a>
+                        <a href="../html/wk2.html"><img class="nav_post" src="../img/post2.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html"><img class="icon_user_1" src="../img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="../html/wk3.html">字型與區塊旋轉</a>
+                        <a href="../html/wk3.html"><img class="nav_post" src="../img/post3.png" alt=""></a>
+                    </li>
+                    <li class="nav__item show-large">
+                        <a href="../index.html"><img class="icon_user_1" src="../img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="../html/wk4.html">字、空間與閱讀性</a>
+                        <a href="../html/wk4.html"><img class="nav_post" src="../img/post4.png" alt=""></a>
+                    </li>
+                    <li class="nav__item show-large">
+                        <a href="../index.html"><img class="icon_user_1" src="../img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="../html/wk5.html">圖片使用的方式與版面關係</a>
+                        <a href="../html/wk5.html"><img class="nav_post" src="../img/post5.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html"><img class="icon_user_1" src="../img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="../html/wk6.html">list和超連結</a>
+                        <a href="../html/wk6.html"><img class="nav_post" src="../img/post6.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html"><img class="icon_user_1" src="../img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="../html/wk7_1.html">導覽列的設計</a>
+                        <a href="../html/wk7_1.html"><img class="nav_post" src="../img/post7.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html"><img class="icon_user_1" src="../img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="../html/wk8.html">本機端開發與RWD</a>
+                        <a href="../html/wk8.html"><img class="nav_post" src="../img/post8.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html"><img class="icon_user_1" src="../img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="../html/wk9.html">css的動態</a>
+                        <a href="../html/wk9.html"><img class="nav_post" src="../img/post9.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html"><img class="icon_user_1" src="../img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="../html/wk10.html">css的動畫</a>
+                        <a href="../html/wk10.html"><img class="nav_post" src="../img/post10.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html"><img class="icon_user_1" src="../img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="../html/wk13.html">原生javaScript的初探</a>
+                        <a href="../html/wk13.html"><img class="nav_post" src="../img/post11.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html"><img class="icon_user_1" src="../img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="../html/wk14.html">JavaScript中的迴圈</a>
+                        <a href="../html/wk14.html"><img class="nav_post" src="../img/post12.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html"><img class="icon_user_1" src="../img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="../html/wk15.html">顯示隱藏div就可以做到的小應用</a>
+                        <a href="../html/wk15.html"><img class="nav_post" src="../img/post13.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html"><img class="icon_user_1" src="../img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="../wk16.html">Canvas 與 Animate</a>
+                        <a href="../wk16.html"><img class="nav_post" src="../img/post14.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <a href="../index.html"><img class="icon_user" src="../img/icon_user_2.png" alt=""></a>
         </div>
     </div>
     <div class="btns">
@@ -34,5 +112,6 @@
     </div>
 
     <script src="../js/wk13_page2.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>
