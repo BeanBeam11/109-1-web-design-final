@@ -5,14 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HowCode -網站設計與賞析1091期末作業</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <script src="js/jQuery.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
     <div class="header">
         <div class="icon_area">
             <a href="index.html"><img class="logo" src="img/img_logo.png" alt=""></a>
-            <a href="index.html"><img class="icon_home"src="img/icon_home_1.png" alt=""></a>
-            <a href="index.html"><img class="icon_heart"src="img/icon_heart_1.png" alt=""></a>
-            <a href="index.html"><img class="icon_user"src="img/icon_user_1.png" alt=""></a>
+            <a href="index.html"><img class="icon_home" src="img/icon_home_1.png" alt=""></a>
+            <div class="icon_heart">
+                <img class="icon_heart_1" src="img/icon_heart_1.png" alt="">
+                <img class="icon_heart_2" src="img/icon_heart_2.png" alt="">
+            </div>
+            <div class="nav_area">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html"><img class="icon_user_1" src="img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="html/wk1.html">課程介紹</a>
+                        <a href="html/wk1.html"><img class="nav_post" src="img/post1.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html"><img class="icon_user_1" src="img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="html/wk2.html">由畫畫來了解HTML/CSS</a>
+                        <a href="html/wk2.html"><img class="nav_post" src="img/post2.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html"><img class="icon_user_1" src="img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="html/wk3.html">字型與區塊旋轉</a>
+                        <a href="html/wk3.html"><img class="nav_post" src="img/post3.png" alt=""></a>
+                    </li>
+                    <li class="nav__item show-large">
+                        <a href="index.html"><img class="icon_user_1" src="img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="html/wk4.html">字、空間與閱讀性</a>
+                        <a href="html/wk4.html"><img class="nav_post" src="img/post4.png" alt=""></a>
+                    </li>
+                    <li class="nav__item show-large">
+                        <a href="index.html"><img class="icon_user_1" src="img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="html/wk5.html">圖片使用的方式與版面關係</a>
+                        <a href="html/wk5.html"><img class="nav_post" src="img/post5.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html"><img class="icon_user_1" src="img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="html/wk6.html">list和超連結</a>
+                        <a href="html/wk6.html"><img class="nav_post" src="img/post6.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html"><img class="icon_user_1" src="img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="html/wk7_1.html">導覽列的設計</a>
+                        <a href="html/wk7_1.html"><img class="nav_post" src="img/post7.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html"><img class="icon_user_1" src="img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="html/wk8.html">本機端開發與RWD</a>
+                        <a href="html/wk8.html"><img class="nav_post" src="img/post8.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html"><img class="icon_user_1" src="img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="html/wk9.html">css的動態</a>
+                        <a href="html/wk9.html"><img class="nav_post" src="img/post9.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html"><img class="icon_user_1" src="img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="html/wk10.html">css的動畫</a>
+                        <a href="html/wk10.html"><img class="nav_post" src="img/post10.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html"><img class="icon_user_1" src="img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="html/wk13.html">原生javaScript的初探</a>
+                        <a href="html/wk13.html"><img class="nav_post" src="img/post11.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html"><img class="icon_user_1" src="img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="html/wk14.html">JavaScript中的迴圈</a>
+                        <a href="html/wk14.html"><img class="nav_post" src="img/post12.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html"><img class="icon_user_1" src="img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="html/wk15.html">顯示隱藏div就可以做到的小應用</a>
+                        <a href="html/wk15.html"><img class="nav_post" src="img/post13.png" alt=""></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html"><img class="icon_user_1" src="img/icon_user_2.png" alt=""></a>
+                        <a class="nav__link" href="wk16.html">Canvas 與 Animate</a>
+                        <a href="wk16.html"><img class="nav_post" src="img/post14.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <a href="index.html"><img class="icon_user" src="img/icon_user_1.png" alt=""></a>
         </div>
     </div>
     <div class="main_area set_center">
@@ -23,7 +103,7 @@
             <div class="profile_word">
                 <div class="name">110819015</div>
                 <div class="follow">
-                    <p>14 貼文</p>
+                    <p>15 貼文</p>
                     <p>1 位追蹤者</p>
                     <p>2 追蹤中</p>
                 </div>
@@ -31,8 +111,8 @@
                     <p>NTUE DTD - 數位二甲</p>
                     <p>宋雨函</p>
                     <p>這是用來記錄我這學期選修「網站設計與賞析」所有學到的東西</p>
+                    <p>！右上方的愛心可以點進之前上課的連結！</p>
                     <p class="line">設計是參考某知名社群軟體</p>
-                    <p class="line">最下方的魔法師可以點進之前上課的連結</p>
                     <p class="tag"><a href="">#學習歷程檔案</a></p>
                     <p class="tag"><a href="">#謝謝老師豐富的教材</a> <a href="">＃獲益良多</a></p>
                     <p>- - -</p>
@@ -86,53 +166,14 @@
             <div class="post post11"><img src="img/post11.png" alt=""></div>
             <div class="post post12"><img src="img/post12.png" alt=""></div>
             <div class="post post13"><img src="img/post13.png" alt=""></div>
+            <div class="post post14"><img src="img/post14.png" alt=""></div>
+            <div class="post post15"><img src="img/post15.png" alt=""></div>
         </div>
-        <!-- <ul>
-            <li>
-                <p>課程介紹 <a href="html/wk1.html">1</a></p>
-            </li>
-            <li>
-                <p>由畫畫來了解HTML/CSS <a href="html/wk2.html">2</a></p>
-            </li>
-            <li>
-                <p>字型與區塊旋轉 <a href="html/wk3.html">3</a></p>
-            </li>
-            <li>
-                <p>字、空間與閱讀性 <a href="html/wk4.html">4</a></p>
-            </li>
-            <li>
-                <p>圖片使用的方式與版面關係 <a href="html/wk5.html">5</a> <a href="html/wk5_1.html">5-1</a></p>
-            </li>
-            <li>
-                <p>list和超連結 <a href="html/wk6.html">6</a> <a href="html/wk6_1.html">6-1</a></p>
-            </li>
-            <li>
-                <p>導覽列的設計 <a href="html/wk7.html">7</a> <a href="html/wk7_1.html">7-1</a></p>
-            </li>
-            <li>
-                <p>本機端開發與RWD <a href="html/wk8.html">8</a></p>
-            </li>
-            <li>
-                <p>css的動態 <a href="html/wk9.html">9</a> <a href="html/wk9_test.html">9-1</a></p>
-            </li>
-            <li>
-                <p>css的動畫 <a href="html/wk10.html">10</a></p>
-            </li>
-            <li>
-                <p>原生javaScript的初探 <a href="html/wk13.html">13</a> <a href="html/wk13_page2.html">13-1</a></p>
-            </li>
-            <li>
-                <p>JavaScript中的迴圈 <a href="html/wk14.html">14</a></p>
-            </li>
-            <li>
-                <p>顯示隱藏div就可以做到的小應用</p>
-            </li>
-        </ul> -->
     </div>
-    <div class="footer footer_1">
+    <div class="footer footer">
         <p class="footer_word"> © 2020 Sofia Sung </p>
     </div>
-    <div class="ntue set_center">
+    <!-- <div class="ntue set_center">
         <img class="ntue_acc"src="img/ntue_acc.png" alt="">
         <div class="block block1"><a href=""><img src="img/wk0.png" alt=""></a></div>
         <div class="block block1"><a href="html/wk1.html"><img src="img/wk1.png" alt=""></a></div>
@@ -151,7 +192,7 @@
     </div>
     <div class="footer">
         <p class="footer_word"> © 2020 Sofia Sung </p>
-    </div>
+    </div> -->
     <div class="big">
         <div class="img"><img src="img/post1.png" alt=""></div>
     </div>

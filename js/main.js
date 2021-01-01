@@ -11,3 +11,5 @@ for(let i = 1; i <= 20; i++){
         big_img.src = document.querySelector(".container .post"+i+" img").src;
     }
 }
+
+

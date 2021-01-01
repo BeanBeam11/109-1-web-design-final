@@ -51,14 +51,32 @@ a{
     right: 120px;
     /* display: none; */
 }
-.icon_heart{
-    /* position: relative; */
-    position: absolute;
+.icon_heart {
+	position: absolute;
     width: 29px;
     height: 28px;
     top: 13px;
-    right: 70px;
-    /* display: none; */
+    right: 74px;
+    display: block;
+}
+.icon_heart:hover {
+	cursor: pointer;
+}
+.icon_heart_1{
+    /* position: absolute; */
+    width: 29px;
+    height: 28px;
+    top: 13px;
+    right: 74px;
+    display: block;
+}
+.icon_heart_2{
+    /* position: absolute; */
+    width: 29px;
+    height: 28px;
+    top: 13px;
+    right: 74px;
+    display: none;
 }
 .icon_user{
     /* position: relative; */
@@ -76,4 +94,58 @@ a{
     height: 32px;
     top: 12px;
     left: 20px;
+}
+/* nav */
+
+.nav_area{
+    position: absolute;
+    top: 54px;
+    right: 10px;
+    width: 400px;
+    height: 840px;
+    background-color: #fff;
+    /* outline: 1px solid red; */
+    display: none;
+}
+.nav__list {
+	/* flex-wrap: wrap; */
+	margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 60px;
+}
+
+.menu-click {
+	display: block;
+}
+
+.nav__item {
+    list-style: none;
+    width: 400px;
+    height: 60px;
+    padding: 20px 0;
+    box-sizing: border-box;
+    outline: 1px solid #dbdbdb;
+}
+.nav__item:hover{
+    background-color: #ebebeb;
+}
+.nav__link {
+    position: absolute;
+    color: #000;
+    font-size: 14px;
+    left: 65px;
+}
+.icon_user_1{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: -10px;
+    left: 10px;
+}
+.nav_post{
+    position: absolute;
+    height: 40px;
+    margin-top: -10px;
+    right: 20px;
 }
